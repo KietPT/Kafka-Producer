@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo "Test abc"
+                echo "Test abc trigger"
                 sh 'mvn clean install -DskipTests'
             }
         }
